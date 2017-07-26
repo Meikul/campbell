@@ -1,21 +1,56 @@
-/* line 3, ../sass/style.scss */
+/* line 5, ../sass/style.scss */
 body {
   background: #F5F1EF;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 .landing {
+  color: #333;
   height: 100vh;
   width: 100vw;
   position: absolute;
   left: 0;
   top: 0;
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Mono";
 }
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .landing .title {
-  font-size: 300vh;
+  position: relative;
+  font-size: 10vh;
   width: 100%;
   text-align: center;
   margin-top: 20vh;
+}
+/* line 24, ../sass/style.scss */
+.landing .buttons {
+  position: relative;
+  margin: auto;
+  margin-top: 10vh;
+  width: 450px;
+}
+/* line 29, ../sass/style.scss */
+.landing .buttons .portfolio-btn {
+  float: left;
+}
+/* line 32, ../sass/style.scss */
+.landing .buttons .contact-btn {
+  float: right;
+}
+
+/* line 38, ../sass/style.scss */
+.btn {
+  border: 2px solid #333;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  font-size: 2vh;
+  border-radius: 2px;
+  cursor: pointer;
+  background: none;
+  transition: all 0.1s ease-out;
+}
+/* line 48, ../sass/style.scss */
+.btn:hover {
+  background: #333;
+  color: #F5F1EF;
 }
