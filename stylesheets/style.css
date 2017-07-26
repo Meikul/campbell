@@ -1,0 +1,21 @@
+/* line 3, ../sass/style.scss */
+body {
+  background: #F5F1EF;
+}
+
+/* line 7, ../sass/style.scss */
+.landing {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto Slab';
+}
+/* line 14, ../sass/style.scss */
+.landing .title {
+  font-size: 300vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 20vh;
+}

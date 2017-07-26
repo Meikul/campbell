@@ -1,0 +1,20 @@
+$off-white: #F5F1EF;
+
+body{
+  background: $off-white;
+}
+
+.landing{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto Slab';
+  .title{
+    font-size: 300vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 20vh;
+  }
+}
